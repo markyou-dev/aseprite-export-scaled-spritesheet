@@ -32,16 +32,12 @@ The JSON file will look like:
 {
   "frames": [
     {
-      "filename": "red/front/1",
+      "filename": "character/front/1",
       "frame": { "x": 0, "y": 0, "w": 80, "h": 80 },
       ...
     },
     ...
-  ],
-  "meta": {
-    "app": "https://www.aseprite.org/",
-    "scale": "5"
-  }
+  ]
 }
 ```
 
