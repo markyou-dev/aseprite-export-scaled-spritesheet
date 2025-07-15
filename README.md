@@ -1,4 +1,4 @@
-# Aseprite Scaled Sheet Exporter
+# Aseprite Exporter: JSON Spritesheet with Custom Scaling
 
 A Lua script for Aseprite that exports sprite sheets and JSON data using structured filenames, and automatically scales both the PNG image and the JSON coordinate data.
 
