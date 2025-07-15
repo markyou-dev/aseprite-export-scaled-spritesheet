@@ -43,27 +43,26 @@ The JSON file will look like:
 }
 ```
 
-🚀 How to Use
-Open Aseprite
+## 🚀 How to Use
+* Open Aseprite
+* Go to File > Scripts > Open Scripts Folder
+* Copy the Lua file (e.g., export_scaled_spritesheet.lua) into that folder
+* Restart Aseprite
+* Open the .aseprite file you want to export
+* Run the script via File > Scripts > export_scaled_spritesheet
 
-Go to File > Scripts > Open Scripts Folder
-
-Copy the Lua file (e.g., export_scaled_spritesheet.lua) into that folder
-
-Restart Aseprite
-
-Open the .aseprite file you want to export
-
-Run the script via File > Scripts > export_scaled_spritesheet
-
-⚙️ Configuration
+## ⚙️ Configuration
 You can change the scale factor at the top of the script:
 
 ```lua
 local scale = 5 -- Change this to your desired scale factor
 ```
 
-🧠 Requirements
-Aseprite v1.3 or higher
+## 🧠 Requirements
 
-Uses Aseprite’s Lua API: https://www.aseprite.org/api/
+* Aseprite v1.3 or higher
+* Uses Aseprite’s Lua API: https://www.aseprite.org/api/
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
