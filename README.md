@@ -20,11 +20,13 @@ A Lua script for Aseprite that exports sprite sheets and JSON data using structu
 
 If your `.aseprite` file is named `hero.aseprite`, running the script will generate:
 
+```
 your-folder/
 ├── hero.aseprite
 └── export/
 ├── hero_5x.png
 └── hero_5x.json
+```
 
 The JSON file will look like:
 
